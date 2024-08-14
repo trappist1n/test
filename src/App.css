@@ -1,0 +1,124 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.fc {
+  max-width: 960px;
+  padding-top: 2.0rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.0rem;
+  padding-right: 2.0rem;
+  margin: auto;
+
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.fc .fc-toolbar-title {
+  font-size: 1.3em;
+  color: #6B7280;
+
+}
+.fc .fc-button-primary {
+  background-color: #059669;
+  border: none;
+  font-size: 0.8em;
+}
+
+@media (hover: hover) {
+  .fc .fc-button-primary:hover {
+    background-color: #059669;
+    opacity: 0.6;
+  }
+  .fc .fc-button-primary:active {
+    background-color: #059669 !important;
+    opacity: 0.6 !important;
+    box-shadow: none !important;
+  }
+  .fc .fc-button-primary:focus {
+    box-shadow: none;
+  }
+  .fc .fc-today-button:hover {
+    background-color: #059669;
+    opacity: 0.6;
+    box-shadow: none;
+  }
+}
+
+@media (hover: none) {
+  .fc .fc-button-primary:hover {
+    background-color: #059669;
+    opacity: 1.0;
+  }
+  .fc .fc-button-primary:active {
+    background-color: #059669 !important;
+    opacity: 0.6 !important;
+    box-shadow: none !important;
+  }
+  .fc .fc-button-primary:focus {
+    background-color: #059669;
+    opacity: 1.0;
+    box-shadow: none;
+  }
+}
+
+.fc .fc-today-button {
+  background-color: #059669;
+  border: none;
+  font-size: 0.8em;
+}
+
+.fc .fc-today-button:disabled {
+  background-color: #059669;
+  opacity: 0.5;
+}
+
+.fc .fc-col-header-cell-cushion {
+  color: #6B7280;
+}
+
+.fc .fc-daygrid-day-top {
+  color: #6B7280;
+}
+
+.fc-button:active {
+  background-color: #960550;
+  opacity: 0.6;
+}
